@@ -1,0 +1,10 @@
+{
+  "changed": false,
+  "msg": "Failed to connect to the host via ssh: Warning: Permanently added '[127.0.0.1]:2222' (ED25519) to the list of known hosts.\r\nsign_and_send_pubkey: no mutual signature supported\r\nvagrant@127.0.0.1: Permission denied (publickey,password).",
+  "unreachable": true
+}
+
+
+Failed to connect to the host via ssh: Warning: Permanently added '[127.0.0.1]:2222' ED25519 to the list of known hosts.
+sign_and_send_pubkey: no mutual signature supported
+vagrant@127.0.0.1: Permission denied (publickey,password).

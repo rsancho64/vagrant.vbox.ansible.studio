@@ -1,0 +1,24 @@
+---
+- hosts: trusty
+  vars:
+    ansible_connection: "ssh"
+    ansible_user: "vagrant"
+    ansible_ssh_user: "vagrant"
+    ansible_pass: "vagrant"
+    gather_facts: no
+    become: yes
+  tasks:
+
+    # OK
+    # - name: run 
+    #   shell: |
+    #   echo hello again
+
+    # :/ no auth
+    # - name: Copy your flask app file to the Vagrant servers
+    #   copy:
+    #     src: /$PWD/test.py
+    #     dest: /home/vagrant/test.py
+    # try now ~ https://gist.github.com/hughker/698870a9cb07376fff730847f43861cb
+
+
